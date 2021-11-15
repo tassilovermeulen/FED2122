@@ -16,14 +16,13 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 <summary>uitwerken voor kick-off werkgroep</summary>
 
 ### Auteur:
-Sanne 't Hooft (vervangen door jouw naam)
+Tassilo Vermeulen
 
 #### Je startniveau:
-hier je startniveau (kies uit zwart, rood óf blauw)
-
-#### Je focus:
-hier je focus (kies uit responsive óf surface plane)
+Zwart
  
+#### Je focus:
+Extra aandacht voor de Surface Plane 
 </details>
 
 
@@ -33,18 +32,17 @@ hier je focus (kies uit responsive óf surface plane)
 ## Je website
 
 <details>
-<summary>uitwerken voor kick-off werkgroep</summary>
 
 ### Je opdracht:
-link naar de website die je gaat namaken óf de naam/omschrijving van je eigen ontwerp
-
+[NS website](https://www.ns.nl)
+ 
 #### Screenshot(s) van de eerste pagina (small screen): 
 hier de naam van de pagina  
-<img src="images/dummy-plaatje.jpg" width="375px" alt="omschrijving van de pagina">
+<img src="images/NS1.png" width="375px" alt="Startpagina NS.nl">
 
 #### Screenshot(s) van de tweede pagina (small screen):
 hier de naam van de pagina  
-<img src="images/dummy-plaatje.jpg" width="375px" alt="omschrijving van de pagina">
+<img src="images/NS2.png" width="375px" alt="Reisplanner uitkomst">
  
 </details>
 
