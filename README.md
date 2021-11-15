@@ -2,45 +2,35 @@
 Markdown is een simpele manier om HTML te schrijven.  
 Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet).
 
-Nb. De standaardstructuur en de spartaanse opmaak van de README.md zijn helemaal prima. Het gaat om de inhoud van je procesverslag. Besteedt de tijd voor pracht en praal aan je website.
 
-Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard open zetten. Fijn om dat steeds voor de relevante stuk(ken) te doen.
-
-
-
-
-
-## Jij
+## 1. Jij
 
 <details>
 <summary>uitwerken voor kick-off werkgroep</summary>
 
-### Auteur:
+### 1.1 Auteur:
 Tassilo Vermeulen
 
-#### Je startniveau:
+#### 1.2 Je startniveau:
 Zwart
  
-#### Je focus:
+#### 1.3 Je focus:
 Extra aandacht voor de Surface Plane 
 </details>
 
 
-
-
-
-## Je website
+## 2. Je website
 
 <details>
 
-### Je opdracht:
+### 2.1 Je opdracht:
 [NS website](https://www.ns.nl)
  
-#### Screenshot(s) van de eerste pagina (small screen): 
+#### 2.2 Screenshot(s) van de eerste pagina (small screen): 
 hier de naam van de pagina  
 <img src="images/NS1.png" width="375px" alt="Startpagina NS.nl">
 
-#### Screenshot(s) van de tweede pagina (small screen):
+#### 2.3 Screenshot(s) van de tweede pagina (small screen):
 hier de naam van de pagina  
 <img src="images/NS2.png" width="375px" alt="Reisplanner uitkomst">
  
@@ -229,8 +219,6 @@ hier screenshot(s) van je eindresultaat
 
 Nb. Wees specifiek ('css-tricks' als bron is bijv. niet specifiek genoeg).
 
-1. bron 1
-2. bron 2
-3. ...
+1. 2.2/2.3 Screenshots NS.nl opgehaald 15 nov 21 van www.ns.nl en https://www.ns.nl/reisplanner/#/?vertrek=Rotterdam%20Centraal&vertrektype=treinstation&aankomst=Amsterdam%20Centraal&aankomsttype=treinstation&type=vertrek&tijd=2021-11-15T15:10
 
 </details>
