@@ -92,8 +92,16 @@ header ul li {
   border-radius: 5px;
 }
 
+.travelAdvice_ValueSwap img {
+ width: 32px;
+ height: 32px;
+ position: absolute;
+ right: 1.5rem;
+ margin-top: 7px;
+}
+
 .travelAdvice input:last-of-type {
-  margin-bottom: 2rem;
+  margin-bottom: 1rem;
 }
 
 .travelAdvice-option {
@@ -234,13 +242,42 @@ button[name="CTA-button"] {
 .skip-to-content-link {
   background: var(--NS-Wit);
   height: 30px;
-  left: 50%;
+  left: 25px;
   padding: 8px;
   position: absolute;
-  transform: translateY(-100%);
-  transition: transform 0.3s;
+  top: -999px;
+  transition: cubic-bezier(0.39, 0.575, 0.565, 1);
+  color: var(--NS-IntBlauw1);
 }
 
 .skip-to-content-link:focus {
-  transform: translateY(0%);
+  top: 0px;
+  transition: cubic-bezier(0.39, 0.575, 0.565, 1);
+  border-color: var(--NS-IntBlauw1);
+}
+
+#travelAdvice_VA input {
+display: none;
+}
+
+#travelAdvice_VA {
+  border: none;
+  margin-bottom: 25px;
+}
+
+.f1-VA-label {
+  border-bottom: 2px solid #0707211a;
+  padding-bottom: 10px;
+  color: var(--NS-Grijs-Inactive);
+  margin-right: 10px;
+}
+
+.Vertrek:checked + .label_Vertrek {
+  border-bottom: 2px solid var(--NS-NorBlauw1);
+  color: var(--NS-NorBlauw1);
+}
+
+.Aankomst:checked + .label_Aankomst {
+  border-bottom: 2px solid var(--NS-NorBlauw1);
+  color: var(--NS-NorBlauw1);
 }

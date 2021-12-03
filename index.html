@@ -2,20 +2,21 @@
 <html lang="en" dir="ltr">
   <head>
     <link rel="stylesheet" href="./css/main.css">
+    <script src="../FED2122/assets/functions.js"></script>
     <meta charset="utf-8">
     <title>Welkom op de website van NS | NS</title>
   </head>
   <body>
     <header>
+      <img src="https://www.ns.nl/static/generic/2.89.0/images/nslogo.svg" alt="Logo NS">
       <a class="skip-to-content-link" href="#accessibility_travelAdvice">
         Doorgaan naar reisplanner
       </a>
       <a class="skip-to-content-link" href="#accessibility_mainContent">
         Doorgaan naar hoofdinhoud
       </a>
-       <img src="https://www.ns.nl/static/generic/2.89.0/images/nslogo.svg" alt="Logo NS">
        <ul>
-         <li>Account</li>
+         <li><img src="./assets/account.svg" alt="Mijn NS"></li>
          <li>Menu</li>
        </ul>
     </header>
@@ -26,11 +27,17 @@
       </section>
       <section id="accessibility_travelAdvice" class="cont-travelAdvice">
         <form class="travelAdvice">
+          <div class="travelAdvice_ValueSwap"><img src="../FED2122/assets/wisselom.svg" alt=""></div>
           <input type="text" name="" value="Amsterdam Centraal">
           <input type="text" name="" value="Rotterdam Centraal">
-        </form>
-        <span class="travelAdvice-option tA-option-active">Vertrek</span>
-        <span class="travelAdvice-option">Aankomst</span>
+        <fieldset id="travelAdvice_VA">
+          <input type="radio" name="f1-VA" id="f1-VA-V" class="Vertrek" />
+          <label for="f1-VA-V" class="f1-VA-label label_Vertrek">Vertrek</label>
+          <input type="radio" name="f1-VA" id="f1-VA-A" class="Aankomst" />
+          <label for="f1-VA-A" class="f1-VA-label label_Aankomst">Aankomst</label>
+        </fieldset>
+      </form>
+
         <span class="travelAdvice-option">vr 26 nov 13:30</span>
         <span class="travelAdvice-option">Nu</span>
         <span class="travelAdvice-option">Opties</span>
