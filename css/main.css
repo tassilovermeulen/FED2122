@@ -291,3 +291,7 @@ button[name="CTA-button"] {
   border-bottom: 2px solid var(--NS-NorBlauw1);
   color: var(--NS-NorBlauw1);
 }
+
+.linkBlock ul li a {
+  color: --NS-IntBlauw1
+}
