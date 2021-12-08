@@ -1,36 +1,38 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-  <head>
-    <link rel="stylesheet" href="./css/main.css">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="functions.js"></script>
-    <meta charset="utf-8">
-    <title>Welkom op de website van NS | NS</title>
-  </head>
-  <body>
-    <header>
-      <img src="https://www.ns.nl/static/generic/2.89.0/images/nslogo.svg" alt="Logo NS">
-      <a class="skip-to-content-link" href="#accessibility_travelAdvice">
-        Doorgaan naar reisplanner
-      </a>
-      <a class="skip-to-content-link" href="#accessibility_mainContent">
-        Doorgaan naar hoofdinhoud
-      </a>
-       <ul>
-         <li><img src="./assets/account.svg" alt="Mijn NS"></li>
-         <li>Menu</li>
-       </ul>
-    </header>
-    <main>
-      <section class="worksNotification">
-        <img src="./assets/ws.svg" alt="Waarschuwing">
-        <p>Werkzaamheden Rotterdam Blaak-Schiphol Airport op 25 november 2021</p>
-      </section>
-      <section id="accessibility_travelAdvice" class="cont-travelAdvice">
-        <form class="travelAdvice" onsubmit="return false">
-          <div class="travelAdvice_ValueSwap"><button onclick="travelAdvice_ValueSwap()"></button></div>
-          <input id="tA_vertrekstation" type="text" name="tA_vertrekstation" value="Amsterdam Centraal">
-          <input id="tA_aankomststation" type="text" name="tA_aankomststation" value="Rotterdam Centraal">
+
+<head>
+  <link rel="stylesheet" href="./css/main.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="functions.js"></script>
+  <meta charset="utf-8">
+  <title>Welkom op de website van NS | NS</title>
+</head>
+
+<body>
+  <header>
+    <img src="https://www.ns.nl/static/generic/2.89.0/images/nslogo.svg" alt="Logo NS">
+    <a class="skip-to-content-link" href="#accessibility_travelAdvice">
+      Doorgaan naar reisplanner
+    </a>
+    <a class="skip-to-content-link" href="#accessibility_mainContent">
+      Doorgaan naar hoofdinhoud
+    </a>
+    <ul>
+      <li><img src="./assets/account.svg" alt="Mijn NS"></li>
+      <li>Menu</li>
+    </ul>
+  </header>
+  <main>
+    <section class="worksNotification">
+      <img src="./assets/ws.svg" alt="Waarschuwing">
+      <p>Werkzaamheden Rotterdam Blaak-Schiphol Airport op 25 november 2021</p>
+    </section>
+    <section id="accessibility_travelAdvice" class="cont-travelAdvice">
+      <form class="travelAdvice" onsubmit="return false">
+        <div class="travelAdvice_ValueSwap"><button onclick="travelAdvice_ValueSwap()"></button></div>
+        <input id="tA_vertrekstation" type="text" name="tA_vertrekstation" value="Amsterdam Centraal">
+        <input id="tA_aankomststation" type="text" name="tA_aankomststation" value="Rotterdam Centraal">
         <fieldset id="travelAdvice_VA">
           <input type="radio" name="f1-VA" id="f1-VA-V" class="Vertrek" />
           <label for="f1-VA-V" class="f1-VA-label label_Vertrek">Vertrek</label>
@@ -39,46 +41,47 @@
         </fieldset>
       </form>
 
-        <span class="travelAdvice-option">vr 26 nov 13:30</span>
-        <span class="travelAdvice-option">Nu</span>
-        <span class="travelAdvice-option">Opties</span>
-        <button type="button" name="retrieveTravelAdvice">Plannen en aanmelden</button>
-      </section>
-      <section id="accessibility_mainContent" class="CTAadvert">
-        <h2>40% korting in de daluren + weekend</h2>
-        <p>Profiteer van 1 maand gratis Flex Dal Voordeel, alleen nog t/m 30 november te bestellen.</p>
-        <p>Laatste kans: eerste maand <span>€ 0</span></p>
-        <button type="button" name="CTAadvert-button">Bekijk de aanbieding</button>
-      </section>
-      <section class="linkBlock">
-        <h2>Veelgezocht <span>ICON</span></h2>
-        <ul>
-          <li>Winnaar NS Publieksprijs 2021</li>
-          <li>Fietsplek aanmelden</li>
-          <li>Gebruik een veilig wachtwoord</li>
-          <li>Coronamaatregelen</li>
-          <li>Geplande werkzaamheden</li>
-          <li>Treinkaartje kopen</li>
-        </ul>
-      </section>
+      <span class="travelAdvice-option">vr 26 nov 13:30</span>
+      <span class="travelAdvice-option">Nu</span>
+      <span class="travelAdvice-option">Opties</span>
+      <button type="button" name="retrieveTravelAdvice">Plannen en aanmelden</button>
+    </section>
+    <section id="accessibility_mainContent" class="CTAadvert">
+      <h2>40% korting in de daluren + weekend</h2>
+      <p>Profiteer van 1 maand gratis Flex Dal Voordeel, alleen nog t/m 30 november te bestellen.</p>
+      <p>Laatste kans: eerste maand <span>€ 0</span></p>
+      <button type="button" name="CTAadvert-button">Bekijk de aanbieding</button>
+    </section>
+    <section class="linkBlock">
+      <h2>Veelgezocht <span>ICON</span></h2>
+      <ul>
+        <li><a href="#">NS Publieksprijs 2021</a></li>
+        <li><a href="#"></a>Fietsplek aanmelden</a></li>
+        <li><a href="#"></a>Gebruik een veilig wachtwoord</a></li>
+        <li><a href="#"></a>Coronamaatregelen</a></li>
+        <li><a href="#"></a>Geplande werkzaamheden</a></li>
+        <li><a href="#"></a>Treinkaartje kopen</a></li>
+      </ul>
+    </section>
 
-      <section class="linkBlock">
-        <h2>Klantenservice <span>ICON</span></h2>
-        <ul>
-          <li>Winnaar NS Publieksprijs 2021</li>
-          <li>Fietsplek aanmelden</li>
-          <li>Gebruik een veilig wachtwoord</li>
-          <li>Coronamaatregelen</li>
-          <li>Geplande werkzaamheden</li>
-          <li>Treinkaartje kopen</li>
-        </ul>
-      </section>
-      <h2>Onze suggesties</h2>
-      <section class="CTA">
-        <h2>Elke dag een ander verhaal? Word conducteur.</h2>
-        <button type="button" name="CTA-button">De reis van morgen begint bij jou</button>
-      </section>
-    </main>
+    <section class="linkBlock">
+      <h2 tabindex="0">Klantenservice <span>ICON</span></h2>
+      <ul>
+        <li><a href="#">NS Publieksprijs 2021</a></li>
+        <li><a href="#"></a>Fietsplek aanmelden</a></li>
+        <li><a href="#"></a>Gebruik een veilig wachtwoord</a></li>
+        <li><a href="#"></a>Coronamaatregelen</a></li>
+        <li><a href="#"></a>Geplande werkzaamheden</a></li>
+        <li><a href="#"></a>Treinkaartje kopen</a></li>
+      </ul>
+    </section>
+    <h2 tabindex="0">Onze suggesties</h2>
+    <section class="CTA">
+      <h2>Elke dag een ander verhaal? Word conducteur.</h2>
+      <button type="button" name="CTA-button">De reis van morgen begint bij jou</button>
+    </section>
+  </main>
 
-  </body>
+</body>
+
 </html>
