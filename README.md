@@ -24,11 +24,11 @@ Extra aandacht voor de Surface Plane/i.o.v.: Formulier uitwerken zoals op NS.nl 
 [NS website](https://www.ns.nl)
  
 #### 2.2 Screenshot(s) van de eerste pagina (small screen): 
-hier de naam van de pagina  
+NS Startpagina  
 <img src="images/NS1.png" width="375px" alt="Startpagina NS.nl">
 
 #### 2.3 Screenshot(s) van de tweede pagina (small screen):
-hier de naam van de pagina  
+NS Reisplanner (niet uitgevoerd, zie afspraak 1.3)  
 <img src="images/NS2.png" width="375px" alt="Reisplanner uitkomst">
  
 </details>
