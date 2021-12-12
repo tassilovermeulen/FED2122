@@ -5,8 +5,6 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 ## 1. Jij
 
 <details>
-<summary>uitwerken voor kick-off werkgroep</summary>
-
 ### 1.1 Auteur:
 Tassilo Vermeulen
 
@@ -14,7 +12,7 @@ Tassilo Vermeulen
 Zwart
  
 #### 1.3 Je focus:
-Extra aandacht voor de Surface Plane 
+Extra aandacht voor de Surface Plane/i.o.v.: Formulier uitwerken zoals op NS.nl mobiel.
 </details>
 
 
@@ -35,189 +33,85 @@ hier de naam van de pagina
  
 </details>
 
-
-
 ## Breakdownschets (week 1)
 
 <details>
-<summary>uitwerken na afloop 2e werkgroep</summary>
 
-### de hele pagina: 
-<img src="images/dummy-plaatje.jpg" width="375px" alt="breakdown van de hele pagina">
-
-### dynamisch deel (bijv menu): 
-<img src="images/dummy-plaatje.jpg" width="375px" alt="breakdown van een dynamisch deel">
-
-### wellicht nog een dynamisch deel (bijv filter): 
-<img src="images/dummy-plaatje.jpg" width="375px" alt="breakdown van nog een dynamisch deel">
+### De volledige breakdown analyse van de website: 
+<img src="assets/Analyse.png" width="700px" alt="breakdown van de hele pagina">
 
 </details>
-
-
-
-
 
 ## Voortgang 1 (week 2)
 
 <details open>
-<summary>uitwerken voor 1e voortgang</summary>
 
 ### Stand van zaken
-hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
-
-
-### Agenda voor meeting
-samen met je groepje opstellen
-
-| student 1      | student 2          | student 3    | student 4        |
-| ---            | ---                | ---          | ---              |
-| dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
-| en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
-| ...            | ...                | ...          | ...              |
+Een sterk begin gemaakt aan de website. Het is wel een uitdaging om alles zoveel mogelijk met selectoren te doen. Met de analyse van de website is het basis geraamte opgezet en zijn basis assets neergezet.
 
 
 ### Verslag van meeting
-hier na afloop snel de uitkomsten van de meeting vastleggen
-
-- punt 1
-- punt 2
-- nog een punt
-- ...
-
+Ik heb geen specifieke punten van aandacht genoteerd. Heb hier en daar andere klasgenoten geholpen. Misschien goed om op te merken: naar mijn idee zijn er geen echte "groepsmeetings" geweest waar we (onderling, als peers) puntsgewijs issues hebben gesproken. Daarom zijn in alle weken deze secties vrij kort. Zoals eerder gezegd heb ik vooral klasgenoten geholpen en zelf research gedaan voor obstakels via internet.
 </details>
-
-
-
-
 
 ## Voortgang 2 (week 3)
 
 <details>
-<summary>uitwerken voor 2e voortgang</summary>
 
 ### Stand van zaken
-hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
-
-
-### Agenda voor meeting
-samen met je groepje opstellen
-
-| student 1      | student 2          | student 3    | student 4        |
-| ---            | ---                | ---          | ---              |
-| dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
-| en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
-| ...            | ...                | ...          | ...              |
-
-
-### Verslag van meeting
-hier na afloop snel de uitkomsten van de meeting vastleggen
-
-- punt 1
-- punt 2
-- nog een punt
-- ...
+Verder gewerkt aan de website, waar nodig heb ik vragen gesteld over uitvoering van de opdracht aan de docent.
 
 </details>
-
-
-
-
 
 ## Toegankelijkheidstest (week 4)
 
 <details>
-<summary>uitwerken na test in 8e voortgang</summary>
 
 ### Bevindingen
-Lijst met je bevindingen die in de test naar voren kwamen:
+Dit vond ik een interessante les, vooral de apparaten (schoksimulator, brillen en bijvoorbeeld de screenreader) gaven een goed beeld van obstakels die mensen met beperkt zicht of lichamelijke beperking ervaren. Dit neem ik niet alleen mee voor dit project, maar ook ander komend werk.
 
-#### Titel eerste bevinding
-Hier korte omschrijving (met indien nodig een afbeelding)
+#### Taal niet aangegeven
+In de HTML was de taal niet correct aangegeven, hierdoor las de screenreader teksten in het Engels. Opgelost door lang tag toe te voegen aan de HTML-pagina
 
-Hier een omschrijving van hoe het opgelost kan worden (met indien nodig een afbeelding)
-
-
-#### Titel tweede bevinding. 
-Hier korte omschrijving (met indien nodig een afbeelding)
-
-Hier een omschrijving van hoe het opgelost kan worden (met indien nodig een afbeelding)
-
-
-#### Titel volgende bevinding. 
-Hier korte omschrijving (met indien nodig een afbeelding)
-
-Hier een omschrijving van hoe het opgelost kan worden (met indien nodig een afbeelding)
-
-
-#### Titel nog een bevinding. 
-Hier korte omschrijving (met indien nodig een afbeelding)
-
-Hier een omschrijving van hoe het opgelost kan worden (met indien nodig een afbeelding)
-
+#### Tabben werkt niet goed
+Het tabben door de website werkte niet zoals ik wilde. Dit heb ik opgelost door sommige elementen om te zetten of een tabindex mee te geven.
 </details>
-
-
-
-
 
 ## Voortgang 3 (week 4)
 
 <details>
-<summary>uitwerken voor 3e voortgang</summary>
 
 ### Stand van zaken
-hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
-
-
-### Agenda voor meeting
-samen met je groepje opstellen
-
-| student 1      | student 2          | student 3    | student 4        |
-| ---            | ---                | ---          | ---              |
-| dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
-| en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
-| ...            | ...                | ...          | ...              |
-
-
-### Verslag van meeting
-hier na afloop snel de uitkomsten van de meeting vastleggen
-
-- punt 1
-- punt 2
-- nog een punt
-- ...
-
-</details>
-
-
-
-
+Geen voortgangsgesprek
 
 ## Eindgesprek (week 5)
 
 <details>
-<summary>uitwerken voor eindgesprek</summary>
 
 ### Stand van zaken
-hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
+De website is af! Het was aardig wat werk, en er zijn een hier en daar ook puntjes waar ik niet helemaal uitkwam. Denk aan het verbergen van het label in het aankomst- en vertrekstation-veld. Hoewel dit normaal geen opgave is kreeg ik het niet helemaal voor elkaar. Het feit dat deze opdracht zo focust op het gebruik van selectoren hielp niet. Ja, een semantisch correcte HTML code en CSS stylesheet met veel selectoren is "hoe het hoort". Echter, in de realiteit is het werkelijk niet te doen om in de ontwikkeling selectoren consequent te gebruiken. Veranderingen of toevoegingen in de layout schoppen dan werkelijk alles door elkaar.
+
+Om deze reden heb ik toch een aantal (11 totaal) div's gebruikt in de ontwikkeling van de site. Ik heb waar mogelijk selectoren aangehouden, maar tijdens actieve ontwikkeling werd dit erg frustrerend.
 
 ### Screenshot(s)
-
-hier screenshot(s) van je eindresultaat
-
+<img src="./assets/ER3.png" width="600px">
+Een overzicht van de reisplanner. Hier zie je ook de uitgeklapte datumprikker en de extra reisplanner opties die onder een toggle staan.
+<img src="./assets/ER1.png" width="300px">
+Een overzicht van een blok en een deel van de footer
+<img src="./assets/ER2.png" width="300px">
+Een overzicht van een blok met links en een nieuwsitem zoals gebruikelijk op NS.nl
 </details>
-
-
-
-
 
 ## Bronnenlijst
 
 <details open>
-<summary>continu bijhouden terwijl je werkt</summary>
 
 Nb. Wees specifiek ('css-tricks' als bron is bijv. niet specifiek genoeg).
 
 1. 2.2/2.3 Screenshots NS.nl opgehaald 15 nov 21 van www.ns.nl en https://www.ns.nl/reisplanner/#/?vertrek=Rotterdam%20Centraal&vertrektype=treinstation&aankomst=Amsterdam%20Centraal&aankomsttype=treinstation&type=vertrek&tijd=2021-11-15T15:10
+
+2. JS-Datepicker gebruikt om de uitklapbare datumprikker te maken. https://www.npmjs.com/package/js-datepicker
+
+3. Alle andere illustraties/logo's/beelden zijn afkomstig van NS.nl
 
 </details>

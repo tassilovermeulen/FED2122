@@ -2,10 +2,10 @@
 const VS_knop = document.getElementById("ValueSwap");
 const todayButton = document.getElementById("todayButton");
 const date = new Date();
-var tA_tijd = document.getElementById("tA_tijd");
-var currentTime = date.toISOString().substring(11, 16);
-var optiesToggle = document.getElementById("options");
-var optionsFieldset = document.getElementById("opties");
+const tA_tijd = document.getElementById("tA_tijd");
+const currentTime = date.toISOString().substring(11, 16);
+const optiesToggle = document.getElementById("options");
+const optionsFieldset = document.getElementById("opties");
 
 // Datumprikker selector
 const picker = datepicker('#tA_datum', {
@@ -55,8 +55,7 @@ function changeTimeToNow() {
     });
 };
 
-
-
+// Opties weergeven/verbergen dmv toggle
 optiesToggle.addEventListener("click", toggleOptions);
 
 function toggleOptions(event) {
