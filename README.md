@@ -94,13 +94,13 @@ De website is af! Het was aardig wat werk, en er zijn een hier en daar ook puntj
 Om deze reden heb ik toch een aantal (11 totaal) div's gebruikt in de ontwikkeling van de site. Ik heb waar mogelijk selectoren aangehouden, maar tijdens actieve ontwikkeling werd dit erg frustrerend.
 
 ### Screenshot(s)
-<img src="./assets/ER3.png" width="600px">\  
+<img src="./assets/ER3.png" width="600px">
 Een overzicht van de reisplanner. Hier zie je ook de uitgeklapte datumprikker en de extra reisplanner opties die onder een toggle staan.\  
 --
-<img src="./assets/ER1.jpg" width="300px">\  
-Een overzicht van een blok en een deel van de footer\  
-
-<img src="./assets/ER2.jpg" width="300px">\  
+<img src="./assets/ER1.jpg" width="300px">
+ Een overzicht van een blok en een deel van de footer\  
+--
+<img src="./assets/ER2.jpg" width="300px">
 Een overzicht van een blok met links en een nieuwsitem zoals gebruikelijk op NS.nl\  
 </details>
 
