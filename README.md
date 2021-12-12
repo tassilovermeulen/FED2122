@@ -99,7 +99,7 @@ Een overzicht van de reisplanner. Hier zie je ook de uitgeklapte datumprikker en
 --
 <img src="./assets/ER1.jpg" width="300px">\  
 Een overzicht van een blok en een deel van de footer\  
-
+--
 <img src="./assets/ER2.jpg" width="300px">\  
 Een overzicht van een blok met links en een nieuwsitem zoals gebruikelijk op NS.nl\  
 </details>

@@ -659,7 +659,7 @@ footer {
   padding-bottom: 1rem;
 }
 
-.linkSection h2 {
+.linkSection h4 {
   font-size: 1rem;
   font-family: NSSansB;
   color: var(--NS-NorBlauw1);
