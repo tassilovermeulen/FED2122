@@ -34,9 +34,9 @@ document.getElementById("tA_tijd").value = dateCorrection.toLocaleString("nl-NL"
 VS_knop.addEventListener("click", travelAdvice_ValueSwap);
 
 function travelAdvice_ValueSwap() {
-    var tmp = document.getElementById("tA_vertrekstation").value;
-    document.getElementById("tA_vertrekstation").value = document.getElementById("tA_aankomststation").value;
-    document.getElementById("tA_aankomststation").value = tmp;
+    var tmp = document.getElementById("Station-Van").value;
+    document.getElementById("Station-Van").value = document.getElementById("Station-Naar").value;
+    document.getElementById("Station-Naar").value = tmp;
 }
 
 //Functie om datum naar vandaag te wijzigen bij knopdruk

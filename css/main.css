@@ -93,10 +93,6 @@ form legend {
   padding: 1rem;
 }
 
-.travelAdvice input:last-of-type {
-  margin-bottom: 1rem;
-}
-
 .travelAdvice-option {
   color: var(--NS-Grijs-Inactive);
   padding-bottom: 12px;
@@ -262,7 +258,8 @@ button[name="CTA-button"] {
   border-color: var(--NS-IntBlauw1);
 }
 
-#travelAdvice_VA input {
+#travelAdvice_VA input:nth-of-type(1),
+#travelAdvice_VA input:nth-of-type(2) {
   clip-path: polygon(0 0,0 0,0 0,0 0);
   width: 1px;
   height: 1rem;
@@ -278,7 +275,7 @@ button[name="CTA-button"] {
 
 .f1-VA-label {
   border-bottom: 2px solid var(--NS-GrijsStreep);
-  padding-bottom: 10px;
+  padding-bottom: 7px;
   color: var(--NS-Grijs-Inactive);
   margin-right: 2px;
 }
@@ -291,6 +288,7 @@ button[name="CTA-button"] {
 .Vertrek:focus+.label_Vertrek {
   border-bottom: 2px solid var(--NS-NorBlauw1);
   color: var(--NS-NorBlauw1);
+  box-shadow: 0 0 0 3px var(--NS-IntBlauw1);
 }
 
 .Aankomst:checked+.label_Aankomst {
@@ -394,6 +392,92 @@ main > section:nth-child(2) > form > fieldset:nth-child(7) > input {
   padding: 0 0 2px 32px;
 }
 
+#stations fieldset {
+  position: relative;
+  overflow: hidden;
+  display: grid;
+  gap: 5px;
+  margin: 3em 1.5em 1.5em;
+  padding: 0;
+  border: none;
+}
+
+/****************/
+/* VAN <-> NAAR */
+/****************/
+
+#stations label {
+  position: relative;
+  margin-bottom: .5em;
+  height: 3em;
+  display: flex;
+  align-items: center;
+  background: var(--NS-Wit);
+  border-radius: .25em;
+  font-family: NSSansB;
+  color: var(--NS-NorBlauw1);
+  padding-left: .5em;
+}
+
+#stations input {
+  position: absolute;
+  inset: 0;
+  width: calc(100% - 3.5em);
+  appearance: none;
+  border: none;
+  border-radius: inherit;
+  transition: padding-left .05s;
+}
+
+#stations input:placeholder-shown {
+  padding-left: 3.5em;
+  background-color: transparent;
+  font-weight: normal;
+}
+
+#stations input:not(:placeholder-shown) {
+  padding-left: .5em;
+  background-color: inherit;
+  color: var(--NS-NorBlauw1);
+  font-family: NSSansB;
+  width: calc(100% - .5em);
+}
+
+#stations label:focus-within {
+  z-index: 100;
+}
+
+#stations button {
+  position: absolute;
+  top: 8em;
+  right: 1em;
+  z-index: 100;
+  width: 3em;
+  height: 3em;
+  border: none;
+  border-radius: .25em;
+  background-color: transparent;
+  outline: none;
+  color: var(--NS-IntBlauw1);
+  cursor: pointer;
+}
+
+button:focus {
+  box-shadow: 0 0 0 3px var(--NS-IntBlauw1);
+}
+
+input:focus {
+  box-shadow: 0 0 0 3px var(--NS-IntBlauw1);
+}
+
+label:focus {
+  box-shadow: 0 0 0 3px var(--NS-IntBlauw1);
+}
+
+a:focus {
+  box-shadow: 0 0 0 3px var(--NS-IntBlauw1);
+}
+
 #todayButton {
   background: transparent;
   border: none;
@@ -404,14 +488,15 @@ main > section:nth-child(2) > form > fieldset:nth-child(7) > input {
   padding-bottom:2px;
   border-bottom: 2px solid var(--NS-GrijsStreep);
   border-radius: 0;
-  padding: 0 0 6px 32px;
+  padding: 0 0 2px 32px;
   background: transparent url(../assets/nu.svg);
   background-repeat: no-repeat;
   background-size: 32px;
   background-position: left center;
 }
 
-#timedate input {
+#tA_datum,
+#tA_tijd {
   background: transparent url(../assets/cal.svg);
   background-repeat: no-repeat;
   background-size: 32px;
@@ -421,6 +506,10 @@ main > section:nth-child(2) > form > fieldset:nth-child(7) > input {
   border-bottom: 2px solid var(--NS-GrijsStreep);
   border-radius: 0;
   padding-left: 2em;
+}
+
+#tA_datum {
+  width: 6em !important;
 }
 
 #tA_tijd {
@@ -498,15 +587,16 @@ section h2 {
   padding-bottom:2px;
   border-bottom: 2px solid var(--NS-GrijsStreep);
   border-radius: 0;
-  padding: 0 0 6px 32px;
+  padding: 0 0 2px 32px;
   background: transparent url(../assets/settings.svg);
   background-repeat: no-repeat;
   background-size: 32px;
   background-position: left center;
+  margin-top: 1em;
 }
 
-#opties {
-  display: block;
+.showOptions {
+  display: flex !important;
 }
 
 #opties {
@@ -514,8 +604,9 @@ section h2 {
   border-top: 1px solid var(--NS-GrijsStreep);
   margin-top: 1rem;
   width: 100%;
-  display: flex;
+
   flex-direction: column;
+  display: none;
 }
 
 #via_label {
@@ -598,9 +689,7 @@ margin-right: 1rem;
   margin-right: 2px;
 }
 
-.showOptions {
-  display: block !important;
-}
+
 
 footer {
   background: var(--NS-Wit);
@@ -655,3 +744,5 @@ footer {
 .linkSection:last-of-type ul li a{
   color: var(--NS-Grijs);
 }
+
+ 

@@ -32,10 +32,19 @@
       <form class="travelAdvice" onsubmit="return false">
         <fieldset id="stations">
           <legend>Stations</legend>
-          <label for="Station-Van">Van</label>
-          <input type="text" name="Station-Van" id="Station-Van">
-          <label for="Station-Naar">Naar</label>
-          <input type="text" name="Station-Naar" id="Station-Naar">
+          <label for="Station-Van">Van
+            <input type="text" name="Station-Van" id="Station-Van" placeholder="adres, station, postcode" list="poi">
+          </label>
+          <button id="ValueSwap">⇋</button>
+          <label for="Station-Naar">Naar
+            <input type="text" name="Station-Naar" id="Station-Naar" placeholder="adres, station, postcode" list="poi">
+          </label>
+          <datalist id="poi">
+            <option value="Rotterdam Centraal">
+            <option value="Rotterdam Blaak">
+            <option value="Rotterdam Noord">
+            <option value="Rotterdam Alexander">
+          </datalist>
         </fieldset>
 
         <fieldset id="travelAdvice_VA">
@@ -44,17 +53,18 @@
           <label for="f1-VA-V" class="f1-VA-label label_Vertrek">Vertrek</label>
           <input type="radio" name="f1-VA" id="f1-VA-A" class="Aankomst" />
           <label for="f1-VA-A" class="f1-VA-label label_Aankomst">Aankomst</label>
-        </fieldset>
-
-        <fieldset id="timedate">
           <legend>Datum en tijd</legend>
           <input type="text" name="tA_datum" id="tA_datum">
           <!-- Dit is vanwege de externe JS-functie een tekstveld.-->
           <input type="time" name="" id="tA_tijd">
           <button name="todayButton" id="todayButton">Nu</button>
+          <button name="options" id="options">Opties</button>
         </fieldset>
 
-        <button name="options" id="options">Opties</button>
+        <fieldset id="timedate">
+
+
+        </fieldset>
 
         <fieldset id="opties">
           <legend>Extra reisplanner opties</legend>
