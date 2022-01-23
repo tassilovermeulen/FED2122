@@ -30,27 +30,35 @@
     </section>
     <section id="accessibility_travelAdvice" class="cont-travelAdvice">
       <form class="travelAdvice" onsubmit="return false">
-        <label for="tA_vertrekstation">van</label>
-        <input id="tA_vertrekstation" type="text" name="tA_vertrekstation">
-        <div class="travelAdvice_ValueSwap"><button id="ValueSwap"></button></div>
-        <label for="tA_aankomststation">naar</label>
-        <input id="tA_aankomststation" type="text" name="tA_aankomststation">
+        <fieldset id="stations">
+          <legend>Stations</legend>
+          <label for="tA_vertrekstation">van</label>
+          <input id="tA_vertrekstation" type="text" name="tA_vertrekstation">
+          <button id="ValueSwap"></button>
+          <label for="tA_aankomststation">naar</label>
+          <input id="tA_aankomststation" type="text" name="tA_aankomststation">
+        </fieldset>
+
         <fieldset id="travelAdvice_VA">
+          <legend>Vertrek/aankomst keuze</legend>
           <input type="radio" name="f1-VA" id="f1-VA-V" class="Vertrek" />
           <label for="f1-VA-V" class="f1-VA-label label_Vertrek">Vertrek</label>
           <input type="radio" name="f1-VA" id="f1-VA-A" class="Aankomst" />
           <label for="f1-VA-A" class="f1-VA-label label_Aankomst">Aankomst</label>
         </fieldset>
-        <fieldset>
+
+        <fieldset id="timedate">
+          <legend>Datum en tijd</legend>
           <input type="text" name="tA_datum" id="tA_datum">
           <!-- Dit is vanwege de externe JS-functie een tekstveld.-->
           <input type="time" name="" id="tA_tijd">
           <button name="todayButton" id="todayButton">Nu</button>
         </fieldset>
-      </form>
-      <button name="options" id="options">Opties</button>
-      <fieldset id="opties">
-        <form>
+
+        <button name="options" id="options">Opties</button>
+
+        <fieldset id="opties">
+          <legend>Extra reisplanner opties</legend>
           <label id="via_label" for="via">via</label>
           <input id="via" type="text" name="via" placeholder="station">
           <h3>Voorkeuren</h3>
@@ -83,9 +91,8 @@
             <input type="radio" name="extraoverstap" id="20" class="Vertrek" />
             <label for="20" class="f1-VA-label label_Vertrek">+20</label>
           </div>
-        </form>
-      </fieldset>
-      <button type="button" name="retrieveTravelAdvice">Plannen en aanmelden</button>
+        </fieldset>
+        <button type="button" name="retrieveTravelAdvice">Plannen en aanmelden</button>
     </section>
     <section id="accessibility_mainContent" tabindex="1" class="CTAadvert">
       <h2>40% korting in de dalsuren + weekend</h2>

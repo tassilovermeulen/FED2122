@@ -1,0 +1,64 @@
+<form class="travelAdvice" onsubmit="return false">
+    <fieldset id="stations">
+        <legend>Stations</legend>
+        <label for="tA_vertrekstation">van</label>
+        <input id="tA_vertrekstation" type="text" name="tA_vertrekstation">
+        <button id="ValueSwap"></button>
+        <label for="tA_aankomststation">naar</label>
+        <input id="tA_aankomststation" type="text" name="tA_aankomststation">
+    </fieldset>
+
+    <fieldset id="travelAdvice_VA">
+        <legend>Vertrek/aankomst keuze</legend>
+        <input type="radio" name="f1-VA" id="f1-VA-V" class="Vertrek" />
+        <label for="f1-VA-V" class="f1-VA-label label_Vertrek">Vertrek</label>
+        <input type="radio" name="f1-VA" id="f1-VA-A" class="Aankomst" />
+        <label for="f1-VA-A" class="f1-VA-label label_Aankomst">Aankomst</label>
+    </fieldset>
+
+    <fieldset id="timedate">
+        <legend>Datum en tijd</legend>
+        <input type="text" name="tA_datum" id="tA_datum">
+        <!-- Dit is vanwege de externe JS-functie een tekstveld.-->
+        <input type="time" name="" id="tA_tijd">
+        <button name="todayButton" id="todayButton">Nu</button>
+    </fieldset>
+
+    <button name="options" id="options">Opties</button>
+
+    <fieldset id="opties">
+        <legend>Extra reisplanner opties</legend>
+        <label id="via_label" for="via">via</label>
+        <input id="via" type="text" name="via" placeholder="station">
+        <h3>Voorkeuren</h3>
+        <div id="opties_voorkeuren">
+            <input type="checkbox" name="voorkeuren" id="voorkeuren1">
+            <label for="voorkeuren1">Geen treinen met verplichte reservering</label>
+        </div>
+        <div id="opties_voorkeuren">
+            <input type="checkbox" name="voorkeuren" id="voorkeuren2">
+            <label for="voorkeuren2">Altijd Vrij of Trein Vrij abonnement</label>
+        </div>
+        <div id="opties_voorkeuren">
+            <input type="checkbox" name="voorkeuren" id="voorkeuren3">
+            <label for="voorkeuren3">Toegankelijk reizen</label>
+        </div>
+        <div id="opties_voorkeuren">
+            <input type="checkbox" name="voorkeuren" id="voorkeuren4">
+            <label for="voorkeuren4">Alleen sprinters</label>
+        </div>
+        <h3>Extra minuten overstaptijd</h3>
+        <div class="overstaptijd_container">
+            <input type="radio" name="extraoverstap" id="0" class="Vertrek" />
+            <label for="0" class="f1-VA-label label_Vertrek">0</label>
+            <input type="radio" name="extraoverstap" id="5" class="Vertrek" />
+            <label for="5" class="f1-VA-label label_Vertrek">+5</label>
+            <input type="radio" name="extraoverstap" id="10" class="Vertrek" />
+            <label for="10" class="f1-VA-label label_Vertrek">+10</label>
+            <input type="radio" name="extraoverstap" id="15" class="Vertrek" />
+            <label for="15" class="f1-VA-label label_Vertrek">+15</label>
+            <input type="radio" name="extraoverstap" id="20" class="Vertrek" />
+            <label for="20" class="f1-VA-label label_Vertrek">+20</label>
+        </div>
+    </fieldset>
+    <button type="button" name="retrieveTravelAdvice">Plannen en aanmelden</button>
